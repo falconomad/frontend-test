@@ -1,0 +1,22 @@
+@import '../../utils/mixins.scss';
+
+@mixin text-style {
+    @include font-size(2);
+    text-decoration: none
+}
+
+.breadcrumb-not-active {
+    @include text-style;
+    color: #ffffff;
+}
+   
+.breadcrumb-active {
+    @include text-style;
+    color: #000000;
+}
+   
+.breadcrumb-arrow {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+

@@ -1,0 +1,24 @@
+@import '../utils/mixins.scss';
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+form {
+    @include card(600px, 600px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.label-text {
+    font-weight: 700;
+    margin-right: 10px;
+    padding: 6px 9px;
+}
+

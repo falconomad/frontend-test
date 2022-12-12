@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #4E5356;
+}
+.ant-table-thead > tr > .ant-table-cell {
+  background-color: #363B3F;
+  color: #A1A3A5;
+  border-bottom-color: #4E5356;
+}
+
+.ant-pagination-disabled .ant-pagination-item-link, .ant-pagination-disabled:hover .ant-pagination-item-link {
+  background: #4E5356;
+  color: #ffff;
+}
+.ant-pagination-item-active {
+  background: #4E5356;
+  color: #ffff;
+}
+
+
+
+.ant-table-thead > tr > .ant-table-cell:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  padding-left: 5rem;
+}
+
+.ant-table-thead > tr > .ant-table-cell:nth-child(5) {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 5rem;
+}
+
+.ant-table-tbody > tr > .ant-table-cell {
+  background-color: #2B3135;
+  color: #ffff;
+  border-bottom-color: #4E5356;
+}
+
+.ant-table-tbody > tr.ant-table-row:hover > td, .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+  background-color: rgb(70, 73, 77);
+}
+.ant-input:active .ant-input:focus .ant-input-focused .ant-input:hover{
+  border-color: #2B3135;
+}

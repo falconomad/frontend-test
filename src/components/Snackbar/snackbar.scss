@@ -1,0 +1,31 @@
+@import '../../utils/mixins.scss';
+
+@mixin snackbar-container {
+    position: absolute;
+    background: lightgreen;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    padding: 1rem;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 8px #838181;
+}
+
+.snackbar-width-min {
+    @include snackbar-container;
+    opacity: 0;
+    display: none
+}
+
+.snackbar-width-auto {
+    @include snackbar-container;
+    display: block
+}
+
+.error {
+    background-color: lightcoral;
+}
+

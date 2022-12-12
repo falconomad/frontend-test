@@ -1,0 +1,39 @@
+
+@mixin font-size($size) {
+  font-size: $size * 1rem;
+  font-size: $size * 12px;
+}
+
+@mixin message {
+  padding:15px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+@mixin card ($height, $width){
+  @include flexbox-center-aligned;
+  height: $height;
+  width: $width;
+  background: #ffffff;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #838181;
+}
+
+@mixin  flexbox-center-aligned{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin button-warning {
+  background: rgb(235, 119, 119);
+  outline: none;
+  cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: wheat;
+}
+
